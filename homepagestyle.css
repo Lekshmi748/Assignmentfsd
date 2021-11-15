@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+.nav-item{
+    color: palevioletred;
+}
+
+
+
+.carousel-item{
+    height: 100vh;
+   width: 100%;
+}
+  
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: crimson;
+}
+.navbar-brand:hover{
+    color: crimson;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Ceviche One', cursive;
+    color: #dc143c;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: #dc143c;
+}
+
+.search{
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(7, 88, 11);
+}
+.tile-body {
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: rgb(236, 76, 103);
+    font-weight: bold;
+   text-decoration: none;
+}
+.card-img-top{
+    transition: 0.2s;
+    transition-property: transform;
+}
+.card-img-top:hover{
+    transform: scale(0.9);
+  }
+  
+.secondsection
+{
+padding: 100px 0;
+background: rgb(149, 230, 166);
+}
